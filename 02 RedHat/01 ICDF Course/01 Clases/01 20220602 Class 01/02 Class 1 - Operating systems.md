@@ -18,48 +18,48 @@
 ### Getting help in CLI
 >CLI: command line interface
 
-`ls`: list content of a folder.
-`ssh`: secure shell.
+- `ls`: list content of a folder.
+- `ssh`: secure shell.
 
 ### how to get help
 help usage examples:
-`ssh --help` show the command help itself.
-`man <keyboar/command>` : using a manual to search for a specific command.
+- `ssh --help` show the command help itself.
+- `man <keyboar/command>` : using a manual to search for a specific command.
 
 > When you use `man`, you can move screen as you do in Vim. (using j, k).
 
 ### file system
-`/bin` binary, executable files.
-`/sbin` system binary, administrate executable file.
+- `/bin` binary, executable files.
+- `/sbin` system binary, administrate executable file.
 
 ### traveling in directories
-`cd` chage directory
-`pwd` show full path aabsolute of working directory.
-`ls` list conents
+- `cd` chage directory
+- `pwd` show full path aabsolute of working directory.
+- `ls` list conents
 - `-a` all context
 - `-l` long format
 - `-r` recursive
 
 ### special paths
-`/` root
-`~` home folder
+- `/` root
+- `~` home folder
 > // se suele guardar esa configuracion en /home/user
 
-`.` current folder
-`..` parent folder.
+- `.` current folder
+- `..` parent folder.
 
 
 ## hiden folder/files 
 Can use a dot in front of folders or file to mark it as a hidden item.
-`./FolderHidden/`   hidden folder.
-`.myFileHidden.ext` hidden file.
+- `./FolderHidden/`   hidden folder.
+- `.myFileHidden.ext` hidden file.
 
 
 ## File management utilies
-`mv` move // also used to rename
-`rm` remove
-`cp` copy
-`mkdir` make directory
+- `mv` move // also used to rename
+- `rm` remove
+- `cp` copy
+- `mkdir` make directory
 
     -f: force
     -r: recursively (include subdirectories)
@@ -68,7 +68,7 @@ Can use a dot in front of folders or file to mark it as a hidden item.
     rm -fr /folder/     // borra recursivamente
 
 ## Tar: Tape Archives
-`tar --help` Saves many files together into a single tape or disk archive, and can restore individual files from the archive.
+- `tar --help` Saves many files together into a single tape or disk archive, and can restore individual files from the archive.
 
 
     -c/--create : create file  |
@@ -82,7 +82,7 @@ Can use a dot in front of folders or file to mark it as a hidden item.
     -u/--update     |
 
 example
-`tar -cgf test.tar.gz *.py` save all python files into file test.tar.gz
+- `tar -cgf test.tar.gz *.py` save all python files into file test.tar.gz
 
 ## Admin autehntication
 - `su` switch to supper
