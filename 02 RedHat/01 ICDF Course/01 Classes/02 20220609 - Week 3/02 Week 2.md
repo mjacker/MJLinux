@@ -72,7 +72,8 @@ chown: Change owner group
 
 vi test.txt
 `chown fl test.txt` : the owner is fl
-`chot :user1 test.txt : the group is user1`
+`chown :user1 test.txt : the group is user1`
+> the ':' inform to change the group.
 
 `id` para ver en que grupo esta el current usuearion fl.
 
