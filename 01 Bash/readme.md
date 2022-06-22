@@ -20,3 +20,12 @@
 
 ## Save and apply new setting
    source ~/.bashrc
+
+## Seeting vi as a command line edditing shell.
+`vim ~/.bashrc`
+
+Add next command
+	`set -o vi`
+
+Source to changes take effect
+	`source ~/.bashrc`
