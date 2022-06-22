@@ -1,7 +1,7 @@
 #!/bin/bash
-for i in {1..107}
+for i in {0..107}
 do
-	echo -e "\e[$i""m Color number #$i. \e[0m"
+	echo -ne "\e[${i}m#${i} \e[0m"
 done
 
 #echo -e "\e[32m Color number #32. \e[0m"
@@ -12,3 +12,17 @@ done
 #
 # combination color
 #echo -e "\e[1;33;4;44mYellow Underlined Text on Blue Background\e[0m"
+echo "" #new line
+echo "--------------------------------------------"
+#Foreground
+for clfg in {30..37} {90..97} 39 ; do
+	#Background
+	for clbg in {40..47} {100..107} 49 ; do
+		#Formatting
+			#Print the result
+			echo -en "\e[0;${clbg};${clfg}m [0;${clfg};${clbg} | \e[0m"
+		done
+		echo #Newline
+	done
+ 
+exit 0
