@@ -1,0 +1,10 @@
+.gitignore
+*.pdf
+*.png
+*.iso
+*.doc
+temp/
+*mjpriv*
+"00 Registration"/
+02 RedHat/01 ICDF Course/00 Registration/
+*.mp4
