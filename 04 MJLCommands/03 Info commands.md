@@ -16,3 +16,12 @@ Count how many lines has a file.
 
 ### show group information
 `cat /etc/group`
+
+### show partition ide, user
+id
+
+### find where is the executable file
+`whereis systemctl`
+> systemctl: /user/bin/systemctl /usr/share/man/man1/systemctl.1.gz
+
+
