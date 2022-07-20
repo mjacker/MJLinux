@@ -88,7 +88,7 @@ absolute style
 
 `chmod a+w text.txt` : cambia el permiso a lectura escritura de todos los usuarios.
 
-`chmo g-x test.txt` : user can execute this file.
+`chmod g-x test.txt` : user can execute this file.
 
 
 
